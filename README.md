@@ -1,7 +1,7 @@
 ## Portfolio-Website
 Portfolio website build using HTML5, CSS3, JavaScript and jQuery.
 
-<a href="https://lifecodess.cf" target="_blank">**Visit Now** 🚀</a>
+<a href="#" target="_blank">**Visit Now** 🚀</a>
 
 
 ## 📌 Tech Stack
@@ -13,8 +13,8 @@ Portfolio website build using HTML5, CSS3, JavaScript and jQuery.
 #### Extras : Particle.js, Typed.js, Tilt.js, Scroll Reveal, Tawkto, Font Awesome, JSON, etc.
 
 ## 📌 Sneak Peek of Main Page 🙈 :
-![mockup720](https://user-images.githubusercontent.com/64949957/124947013-1f682080-e02d-11eb-977e-df3bbd4fa838.png)
-![skillsmockup](https://user-images.githubusercontent.com/64949957/124948653-82a68280-e02e-11eb-80d7-315ebc08ad36.PNG)
+![mockup720]()
+![skillsmockup](
 
 
 <h2>📬 Contact</h2>
