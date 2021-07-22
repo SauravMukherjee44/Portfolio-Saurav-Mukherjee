@@ -5,7 +5,7 @@
         "id": 1,
         "name": "Machine Learning Prediction Model",
         "desc": "In this regression task we will predict the percentage of marks that a student is expected to score based upon the number of hours they studied.This is a simple linear regression task as it involves just two variables. Data can be found at http://bit.ly/w-data. What will be predicted score if a student study for 9.25 hrs in a day?",
-        "image": "/assests/images/projects/mlpr.jpg",
+        "image": "https://res.cloudinary.com/dkak37mek/image/upload/v1626933127/mlpr_c2stn8.jpg",
         "links": {
             "view": "https://github.com/SauravMukherjee44/The-Sparks-Foundation---Machine-Learning-Task-1/blob/main/Sparks%20Foundation%20Task%20-1%20.ipynb",
             "code": "https://github.com/SauravMukherjee44/The-Sparks-Foundation---Machine-Learning-Task-1"
@@ -15,7 +15,7 @@
         "id": 2,
         "name": "COVID-19 Outbreak Analysis",
         "desc": "We all know that coronavirus is spreading on a daily basis in India. So, let's try to visualise how fast it is spreading. First, let's look at the dashboard created by Johns Hopkins University. You can look at the following live dashboard to see the real-time trend. COVID-19 Live Dashboard Now, let's create a similar map for India using Python to visualise the most affected states in India due to coronavirus.",
-        "image": "/assests/images/projects/covidml.png",
+        "image": "https://res.cloudinary.com/dkak37mek/image/upload/v1626933140/covidml_pdaxpu.png",
         "links": {
             "view": "https://github.com/SauravMukherjee44/COVID-19-Outbreak-Analysis-Using-Data-Science/blob/main/COVID-19%20Outbreak%20Analysis%20.ipynb",
             "code": "https://github.com/SauravMukherjee44/COVID-19-Outbreak-Analysis-Using-Data-Science"
@@ -25,7 +25,7 @@
         "id": 3,
         "name": "TITANIC-SURVIVOUR-ANALYSIS",
         "desc": "In this project we are going to build an artificial intelligence neural network to classify the passengers into two classes based on whether they survived the titanic incident or not",
-        "image": "/assests/images/projects/Titanic.png",
+        "image": "https://res.cloudinary.com/dkak37mek/image/upload/v1626933129/Titanic_nuxdgz.png",
         "links": {
             "view": "https://github.com/SauravMukherjee44/TITANIC-SURVIVOUR-ANALYSIS/blob/main/Titanic_Survivors_Analysis_By_Saurav_.ipynb",
             "code": "https://github.com/SauravMukherjee44/TITANIC-SURVIVOUR-ANALYSIS"
@@ -35,10 +35,10 @@
         "id": 4,
         "name": "Portfolio Website",
         "desc": "Personal portfolio website. Don't need much info about it, just scroll down. You're here only!",
-        "image": "/assests/images/projects/portfolio1.PNG",
+        "image": "https://res.cloudinary.com/dkak37mek/image/upload/v1626933129/portfolio1_bjhkvn.png",
         "links": {
-            "view": "#",
-            "code": "#"
+            "view": "https://sauravmukherjee44.github.io/Portfolio-Saurav-Mukherjee/",
+            "code": "https://github.com/SauravMukherjee44/Portfolio-Saurav-Mukherjee"
         }
     },
     
@@ -46,7 +46,7 @@
         "id": 5,
         "name": "College Library Website",
         "desc": "This is a College Library Website in which you can keep a record of all the books you have issued.© 2021 Saurav Mukherjee",
-        "image": "/assests/images/projects/Library.png",
+        "image": "https://res.cloudinary.com/dkak37mek/image/upload/v1626933149/Library_qcitus.png",
         "links": {
             "view": "https://sauravmukherjee44.github.io/Aec-Library-Website/",
             "code": "https://github.com/SauravMukherjee44/Aec-Library-Website"
