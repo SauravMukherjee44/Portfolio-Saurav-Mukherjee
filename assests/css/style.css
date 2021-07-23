@@ -525,7 +525,7 @@ header .navbar ul li a:hover{
   background: #e03d0b;
 }
 .skills .container .col .bar .css:before{
-  width: 92%;
+  width: 82%;
   background: #2962ff;
 }
 .skills .container .col .bar .javascript:before{
