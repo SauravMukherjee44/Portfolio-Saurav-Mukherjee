@@ -3,12 +3,12 @@
     
     {
         "id": 1,
-        "name": "Machine Learning Prediction Model",
-        "desc": "In this regression task we will predict the percentage of marks that a student is expected to score based upon the number of hours they studied.",
+        "name": "E-Mail Classification ML Model",
+        "desc": "Classify emails as spam or not-spam on the basis of the message.[Naive Bayes, Numpy, Pandas and Sklearn].",
         "image": "https://res.cloudinary.com/dkak37mek/image/upload/v1626933127/mlpr_c2stn8.jpg",
         "links": {
-            "view": "https://github.com/SauravMukherjee44/The-Sparks-Foundation---Machine-Learning-Task-1/blob/main/Sparks%20Foundation%20Task%20-1%20.ipynb",
-            "code": "https://github.com/SauravMukherjee44/The-Sparks-Foundation---Machine-Learning-Task-1"
+            "view": "https://github.com/SauravMukherjee44/Email-Classification-Model/blob/main/Model/email_classification.ipynb",
+            "code": "https://github.com/SauravMukherjee44/Email-Classification-Model"
         }
     },
     {
@@ -35,7 +35,7 @@
         "id": 4,
         "name": "Portfolio Website",
         "desc": "Personal portfolio website. Don't need much info about it, just scroll down. You're here only!",
-        "image": "https://res.cloudinary.com/dkak37mek/image/upload/v1626933129/portfolio1_bjhkvn.png",
+        "image": "https://res.cloudinary.com/dkak37mek/image/upload/v1628532035/portfolio-Saurav_pbvufi.png",
         "links": {
             "view": "https://sauravmukherjee44.github.io/Portfolio-Saurav-Mukherjee/",
             "code": "https://github.com/SauravMukherjee44/Portfolio-Saurav-Mukherjee"
@@ -46,11 +46,23 @@
         "id": 5,
         "name": "College Library Website",
         "desc": "This is a College Library Website in which you can keep a record of all the books you have issued.© 2021 Saurav Mukherjee",
-        "image": "https://res.cloudinary.com/dkak37mek/image/upload/v1626933149/Library_qcitus.png",
+        "image": "https://res.cloudinary.com/dkak37mek/image/upload/v1628531865/Library_ekw7mi.png",
         "links": {
             "view": "https://sauravmukherjee44.github.io/Aec-Library-Website/",
             "code": "https://github.com/SauravMukherjee44/Aec-Library-Website"
         }
+    },
+    {
+        "id": 6,
+        "name": "Netflix Clone | React-App",
+        "desc": "Netflix clone App built with React and Redux. The objective of this project is to practising the concepts of 'React-Hooks', 'Redux-Hooks', react-router, redux-setup.",
+        "image": "https://res.cloudinary.com/dkak37mek/image/upload/v1628532262/Netflix_ty1ofn.png",
+        "links": {
+        "view": "https://netflix-clone-saurav.herokuapp.com/",
+        "code": "https://github.com/SauravMukherjee44/Netflix-Clone-PC-App"
+        }
     }
+
+    
     
 ]
