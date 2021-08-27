@@ -25,7 +25,7 @@ function(){
     }
     else {
         document.title = "Come Back To Portfolio";
-        $("#favicon").attr("href","/assests/images/favhand.png");
+        
     }
 });
 
