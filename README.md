@@ -4,7 +4,7 @@ Portfolio website build using HTML5, CSS3, JavaScript and jQuery.
 <a href="https://sauravmukherjee44.github.io/Portfolio-Saurav-Mukherjee/" target="_blank">**Visit Now** 🚀</a>
 
 
-## 📌 Tech Stack
+## 📌 Tech Stack:
 [![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)]
 [![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)]
 [![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)]
@@ -12,7 +12,7 @@ Portfolio website build using HTML5, CSS3, JavaScript and jQuery.
 
 #### Extras : Particle.js, Typed.js, Tilt.js, Scroll Reveal, Tawkto, Font Awesome, JSON, etc.
 
-## 📌 Sneak Peek of Main Page 🙈 :
+## 📌 Sneak Peek of Main Page:
 ![mockup720](https://github.com/SauravMukherjee44/Portfolio-Saurav-Mukherjee/blob/94498338de779cd693065dfb01b8ca1daab1eeef/assests/images/Screenshot%20(214).png)
 ![skillsmockup](https://github.com/SauravMukherjee44/Portfolio-Saurav-Mukherjee/blob/577c41033c42fcd3568e2ca266dc4511d87f630b/assests/images/Screenshot%20(215).png)
 
