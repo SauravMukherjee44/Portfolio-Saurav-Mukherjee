@@ -408,8 +408,8 @@ header .navbar ul li a:hover{
   right: 2rem;
   padding: 1rem 1.5rem;
   font-size: 2rem;
-  background: #ffae00;
-  color: rgb(13, 0, 44);
+  background: #421cecf5;
+  color: rgb(235, 233, 239);
   border-radius: 5rem;
   transition: 1s linear;
   z-index: 1000;
