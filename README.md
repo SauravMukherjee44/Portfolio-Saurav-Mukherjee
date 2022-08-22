@@ -21,8 +21,8 @@ Portfolio website build using HTML5, CSS3, JavaScript and jQuery.
 
 ## 📌 Sneak Peek of Main Page:
 ![mockup720](./assests/images/Screenshot%20(194).png)
-![skillsmockup](https://github.com/SauravMukherjee44/Portfolio-Saurav-Mukherjee/blob/577c41033c42fcd3568e2ca266dc4511d87f630b/assests/images/Screenshot%20(215).png)
-
+![skillsmockup](./assests/images/Screenshot%20(195).png)
+![mockup720](./assests/images/Screenshot%20(197).png)
 
 <h2>📬 Contact</h2>
 
