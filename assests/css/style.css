@@ -92,7 +92,7 @@ header .logo i {
   font-size: 2.2rem;
 }
 header .logo:hover {
-  color: #fc8c05;
+  color: #0f46a2;
 }
 header .navbar ul{
   list-style: none;
@@ -222,7 +222,7 @@ header .navbar ul li a:hover{
 .home .content h3 span{
   font-size: 5rem;
   font-weight: 800;
-  color: #ff7b00;
+  color: #0984ad;
 }
 .home .content p{
   font-size: 2.5rem;
@@ -232,7 +232,7 @@ header .navbar ul li a:hover{
 }
 .home .content p span{
   font-size: 2.5rem;
-  color: rgb(148, 8, 8);
+  color: #0984ad;
   font-weight: 600;
   padding: 1rem 0;
 }
@@ -244,8 +244,8 @@ header .navbar ul li a:hover{
   border-radius: 4em;
   transition: 0.5s;
   color: #fff;
-  background: #ffe600;
-  box-shadow: 0px 5px 18px rgba(145, 136, 12, 0.6);
+  background: #1858c7;
+  box-shadow: 0px 5px 18px #12329f(145, 136, 12, 0.6);
   font-family: 'Nunito', sans-serif;
 }
 .home .btn span {
@@ -282,8 +282,8 @@ header .navbar ul li a:hover{
   font-size:2rem;
   display:inline-block;
   line-height:44px;
-  color: #ffe600;
-  background-color:#09011b;
+  color: #f1f2f3;
+  background-color: #10319f;
   width:44px;
   height:44px;
   text-align:center;
@@ -403,7 +403,7 @@ header .navbar ul li a:hover{
   border-radius: .5em;
   transition: 0.3s;
   color: #fff;
-  background: #f8e004;
+  background: #0f46a2;
   box-shadow: 0px 5px 10px rgba(200, 219, 30, 0.6);
   font-family: 'Nunito', sans-serif;
 }
@@ -456,7 +456,7 @@ header .navbar ul li a:hover{
   color: #fff;
 }
 .skills .heading span{
-  color: rgb(255, 230, 0);
+  color: #0f46a2(255, 230, 0);
 }
 .skills .container{
   background: rgba( 0, 0, 22, 0.4);
@@ -574,7 +574,7 @@ header .navbar ul li a:hover{
 }
 .skills .container .col .bar .firebase:before{
   width: 90%;
-  background: #ffae00;
+  background: #0f46a2;
 }
 
 /* skills media queries starts*/
@@ -760,7 +760,7 @@ header .navbar ul li a:hover{
   height: 4.5rem;
   width: 100%;
   padding-left: 1rem;
-  background: #ffd900;
+  background: #0f46a2;
 }
 .work .box-container .box .content .tag h3{
   font-size: 2rem;
@@ -863,7 +863,7 @@ header .navbar ul li a:hover{
   height: 25px;
   right: -17px;
   background-color: rgb(255, 255, 255);
-  border: 4px solid #FF9F55;
+  border: 4px solid #0f46a2;
   top: 15px;
   border-radius: 50%;
   z-index: 100;
@@ -888,9 +888,9 @@ header .navbar ul li a:hover{
   width: 0;
   z-index: 1;
   right: 30px;
-  border: medium solid #f68c09;
+  border: medium solid #0f46a2;
   border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent #f68c09;
+  border-color: transparent transparent transparent #0f46a2;
 }
 /* arrows pointing left  */
 .experience .right::before {
@@ -901,15 +901,15 @@ header .navbar ul li a:hover{
   width: 0;
   z-index: 1;
   left: 30px;
-  border: medium solid #f68c09;
+  border: medium solid #0f46a2;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #f68c09 transparent transparent;
+  border-color: transparent #0f46a2 transparent transparent;
 }
 .experience .right::after {
   left: -16px;
 }
 .experience .content {
-  background-color: #f68c09;
+  background-color: #0f46a2;
   position: relative;
   border-radius: 6px;
 }
@@ -983,9 +983,9 @@ header .navbar ul li a:hover{
   }
   .experience .container::before {
   left: 61px;
-  border: medium solid #f68c09;
+  border: medium solid #0f46a2;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #f68c09 transparent transparent;
+  border-color: transparent #0f46a2 transparent transparent;
   }
   .experience .left::after {
     left: 15px;
@@ -1189,7 +1189,7 @@ form .button-area{
 }
 .footer .box-container .box p i{
   padding-right: 1rem;
-  color: #ffae00;
+  color: #0f46a2;
 }
 .footer .box-container .box a{
   font-size: 1.5rem;
@@ -1198,7 +1198,7 @@ form .button-area{
   display: block;
 }
 .footer .box-container .box a:hover{
-  color: #ffae00;
+  color: #0f46a2;
 }
 .footer .box-container .box .share{
   display: flex;
@@ -1222,7 +1222,7 @@ form .button-area{
   background: transparent;
   transform: scale(0.98);
   border: .1rem solid rgb(180, 178, 178);
-  color: #ffae00;
+  color: #0f46a2;
 }
 .footer .credit{
   padding: 1rem 0 0 0;
@@ -1234,7 +1234,7 @@ form .button-area{
   border-top: .1rem solid #fff3;
 }
 .footer .credit a{
-  color: #ffae00;
+  color: #0f46a2;
 }
 .footer .fa{
     color: #E90606;
@@ -1287,7 +1287,7 @@ form .button-area{
   right: 2rem;
   padding: 1rem 1.5rem;
   font-size: 2rem;
-  background: #ffae00;
+  background: #0f46a2;
   color: rgb(13, 0, 44);
   border-radius: 50%;
   transition: 1s linear;
