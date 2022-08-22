@@ -449,160 +449,78 @@ header .navbar ul li a:hover{
 
 
 /* skills section starts */
-.skills{
+.skills {
+  min-height: 90vh;
   background: linear-gradient(to bottom, #57059e, #4a00e0);
 }
-.skills h2{
+.skills h2 {
   color: #fff;
 }
-.skills .heading span{
+.skills .heading span {
   color: rgb(255, 230, 0);
 }
-.skills .container{
-  background: rgba( 0, 0, 22, 0.4);
+.skills .container {
+  background: rgba(0, 0, 22, 0.4);
+  color: #fff;
   border-radius: 1rem;
   padding: 2rem;
-  margin: 1rem;
-}
-.skills .container .row{
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  flex-wrap: wrap;
-}
-.skills .container .row .col{
-  display: grid;
-}
-.skills .container .col{
-  position: relative;
   width: 90%;
-  color: #fff;
-  margin-top: .5rem;
+  margin: auto;
+  margin-top: 2rem;
 }
-.skills .container .col .bar{
+.skills .container .row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  flex-wrap: wrap;
+  gap: 1.8rem;
+}
+.skills .container .bar {
   margin-bottom: 15px;
   padding: 10px;
   border-radius: 1rem;
-  box-shadow: 0 4px 10px rgba(0,0,0,.2);
-  background: rgba( 0, 0, 22, 0.9);
-  transition: .2s;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 22, 0.9);
+  transition: 0.2s;
 }
-.skills .container .col .bar:hover{
-  transform: translateX(12px);
-  box-shadow: 0 5px 8px rgba(0, 2, 68, 0.4);
+.skills .container .bar:hover {
+  box-shadow: 0 8px 10px rgba(0, 2, 68, 0.8) !important;
+  background-color: rgba(0, 0, 0, 0.9) !important;
 }
-.skills .container .col .bar .info{
+.skills .container .bar .info {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 5px;
+  gap: 1rem;
+  margin-top: 1rem;
 }
-.skills .container .col .bar .info i{
+.skills .container .bar .info i {
+  font-size: 4rem;
+}
+.skills .container .bar .info span {
   font-size: 2rem;
-}
-.skills .container .col .bar .info span{
-  font-size: 1.8rem;
   font-weight: 500;
-  font-family: 'Poppins';
-  margin-left: .5rem;
+  font-family: "Poppins";
+  margin-left: 0.5rem;
 }
-.skills .container .col .bar .line{
-  position: relative;
-  width: 100%;
-  height: 10px;
-  background: rgb(212, 211, 211);
-  border-radius: 6px;
-}
-.skills .container .col .bar .line:before{
-  content: '';
-  position: absolute;
-  height: 100%;
-  top: 0;
-  left: 0;
-  border-radius: 4px;
-}
-.skills .container .col .bar .html:before{
-  width: 90%;
-  background: #e03d0b;
-}
-.skills .container .col .bar .css:before{
-  width: 82%;
-  background: #2962ff;
-}
-.skills .container .col .bar .javascript:before{
-  width: 82%;
-  background: #ffd900;
-}
-.skills .container .col .bar .jquery:before{
-  width: 73%;
-  background: #3d10dd;
-}
-.skills .container .col .bar .php:before{
-  width: 84%;
-  background: #8054c7;
-}
-.skills .container .col .bar .mysql:before{
-  width: 80%;
-  background: #f38b03;
-}
-.skills .container .col .bar .reactjs:before{
-  width: 55%;
-  background: #2962ff;
-}
-.skills .container .col .bar .java:before{
-  width: 80%;
-  background: #ce0505;
-}
-.skills .container .col .bar .python:before{
-  width: 90%;
-  background: #f7d203;
-}
-.skills .container .col .bar .android:before{
-  width: 70%;
-  background: #2fdf7e;
-}
-.skills .container .col .bar .nodejs:before{
-  width: 70%;
-  background: #298521;
-}
-.skills .container .col .bar .vcs:before{
-  width: 88%;
-  background: #f14e32;
-}
-.skills .container .col .bar .cms:before{
-  width: 85%;
-  background: #1771e7;
-}
-.skills .container .col .bar .firebase:before{
-  width: 90%;
-  background: #0f46a2;
-}
-
 /* skills media queries starts*/
-@media screen and (max-width: 600px){
-  .skills .container{
+@media screen and (max-width: 600px) {
+  .skills .container {
     padding: 0;
     margin: 0;
   }
-  .skills .container .row{
-    grid-template-columns: repeat(1,1fr);
+  .skills .container .row {
+    grid-template-columns: repeat(2, 1fr);
     margin: 1rem;
-    padding-top: 2rem;
+    padding: 2rem 0.2rem 2rem 0.2rem;
+    gap: 1rem;
   }
-  .skills .container .col{
+  .skills .container {
     margin-top: 5px;
     width: 100%;
-  }
-  .skills .container .col .bar{
-    margin-bottom: 10px;
-    padding: 10px;
-  }
-  .skills .container .col .bar .line{
-    height: .8rem;
   }
 }
 /* skills media queries ends*/
 /* skills section ends */
-
 
 /* education section starts */
 .education{
@@ -1291,7 +1209,7 @@ form .button-area{
   padding: 1rem 1.5rem;
   font-size: 2rem;
   background: #421cecf5;
-  color: rgb(13, 0, 44);
+  color: rgb(232, 229, 239);
   border-radius: 50%;
   transition: 1s linear;
   z-index: 1000;
