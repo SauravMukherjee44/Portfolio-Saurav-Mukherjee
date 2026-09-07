@@ -42,6 +42,16 @@ npm run build
 npm start
 ```
 
+## Deployment
+
+The `main` branch deploys on Netlify. Build settings are versioned in [`netlify.toml`](./netlify.toml):
+
+- Build command: `npm run build`
+- Publish directory: `.next`
+- Runtime: Node.js 22
+
+Netlify applies its maintained OpenNext adapter automatically during deployment.
+
 ## Project structure
 
 ```text
