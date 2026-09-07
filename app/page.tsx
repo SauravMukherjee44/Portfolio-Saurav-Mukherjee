@@ -72,7 +72,7 @@ const projects: Project[] = [
     kicker: '01 / Governed agents',
     statement: 'Agents can improvise. Operations cannot.',
     summary: 'A production-minded workspace that turns messy multimodal evidence into versioned, inspectable workflows with evaluation and human approval built in.',
-    image: '/assets/projects/opsweave.avif',
+    image: '/assets/projects/opsweave.webp',
     mobileImage: '/assets/projects/opsweave-mobile-dark-v2.png',
     live: 'https://opsweave.sauravmukherjee.in/',
     github: 'https://github.com/SauravMukherjee44/OpsWeave',
@@ -87,8 +87,8 @@ const projects: Project[] = [
     kicker: '02 / Environmental intelligence',
     statement: 'A source of truth should show its working.',
     summary: 'An evidence-first workspace that converts approvals, amendments, maps, and field records into current obligations and inspection-ready action.',
-    image: '/assets/projects/verdatrace.avif',
-    mobileImage: '/assets/projects/verdatrace-mobile.png',
+    image: '/assets/projects/verdatrace.webp',
+    mobileImage: '/assets/projects/verdatrace-mobile.jpg',
     live: 'https://verdatrace.com/',
     github: 'https://github.com/SauravMukherjee44/VerdaTrace',
     accent: '#acffe9',
@@ -102,8 +102,8 @@ const projects: Project[] = [
     kicker: '03 / Safety-first research',
     statement: 'Different risks deserve different model boundaries.',
     summary: 'An open-weight health-screening research system combining specialist ML, local voice inference, typed tools, and deterministic safety precedence.',
-    image: '/assets/projects/healthai.avif',
-    mobileImage: '/assets/projects/healthai-mobile.png',
+    image: '/assets/projects/healthai.webp',
+    mobileImage: '/assets/projects/healthai-mobile.jpg',
     live: 'http://healthai.sauravmukherjee.in/',
     github: 'https://github.com/SauravMukherjee44/HealthAI-Agent-Lab',
     accent: '#ffcf9d',
@@ -179,7 +179,7 @@ const career: Career[] = [
   },
   {
     org: 'SMIIT LTD', shortOrg: 'SMIIT', period: 'Dec 2023 — Jul 2024', role: 'Software Development Engineer Intern',
-    logo: 'https://smiit.co.uk/assets/img/logo/logo.svg', website: 'https://smiit.co.uk/', accent: '#3aa9e8',
+    logo: '/assets/brands/smiit.svg', website: 'https://smiit.co.uk/', accent: '#3aa9e8',
     copy: 'I worked at the intersection of applied ML and cybersecurity, turning high-volume telemetry into prioritized risk signals for faster enterprise triage.',
     proof: [
       'Engineered ML-driven threat-detection pipelines for streaming security telemetry and real-time analysis.',
@@ -563,7 +563,7 @@ function ProjectWorld({ project, index, open }: { project: Project; index: numbe
   const style = { '--accent': project.accent, '--surface': project.surface, '--index': index } as CSSProperties
   return <article className="project-world" style={style}>
     <div className="project-copy"><span>{project.kicker}</span><h3>{project.name}</h3><strong>{project.statement}</strong><p>{project.summary}</p><div className="project-tags">{project.stack.map(tag => <i key={tag}>{tag}</i>)}</div><button onClick={open}>Open the system <ArrowUpRight /></button></div>
-    <div className="product-window"><div className="window-bar"><span><i /><i /><i /></span><small>{project.live.replace(/^https?:\/\//, '')}</small><ExternalLink size={14} /></div><div className="window-image"><Image src={project.image} fill sizes="(max-width: 900px) 92vw, 54vw" alt={`${project.name} product interface`} /></div><div className="window-proof">{project.proof.map(item => <span key={item}>✓ {item}</span>)}</div></div>
+    <div className="product-window"><div className="window-bar"><span><i /><i /><i /></span><small>{project.live.replace(/^https?:\/\//, '')}</small><ExternalLink size={14} /></div><div className="window-image"><Image src={project.image} fill loading="eager" fetchPriority={index === 0 ? 'high' : 'auto'} sizes="(max-width: 900px) 92vw, 54vw" alt={`${project.name} product interface`} /></div><div className="window-proof">{project.proof.map(item => <span key={item}>✓ {item}</span>)}</div></div>
     <span className="project-ghost">0{index + 1}</span>
   </article>
 }
@@ -580,7 +580,7 @@ function ProjectModal({ project, close }: { project: Project; close: () => void 
     <button className="modal-close" onClick={close} aria-label="Close project details"><X size={18} /><span>Close</span></button>
     <div className="modal-visual">
       <span className="modal-capture-label"><i /> Live mobile capture</span>
-      <div className="modal-phone"><span className="phone-speaker" /><div className="phone-screen"><Image src={project.mobileImage} fill sizes="(max-width: 760px) 210px, 290px" alt={`${project.name} mobile landing page`} /></div><span className="phone-home" /></div>
+      <div className="modal-phone"><span className="phone-speaker" /><div className="phone-screen"><Image src={project.mobileImage} fill loading="eager" sizes="(max-width: 760px) 210px, 290px" alt={`${project.name} mobile landing page`} /></div><span className="phone-home" /></div>
       <div className="modal-orbit" aria-hidden="true"><i /><i /><i /></div>
       <small>{project.live.replace(/^https?:\/\//, '')}</small>
     </div>
