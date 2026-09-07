@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 88" role="img" aria-labelledby="title">
+  <title id="title">SMIIT LTD</title>
+  <rect width="88" height="88" rx="22" fill="#171713"/>
+  <path d="M20 58V30h10l14 18 14-18h10v28H57V45L44 61 31 45v13H20Z" fill="#c8ff5a"/>
+  <text x="104" y="48" fill="#171713" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="800" letter-spacing="1">SMIIT</text>
+  <text x="106" y="67" fill="#77746d" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="700" letter-spacing="4">LTD</text>
+</svg>

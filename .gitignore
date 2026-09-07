@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+.DS_Store
+*.log
+*.tsbuildinfo
+tmp/
+AGENTS.md
+CLAUDE.md
+.env*
+!.env.example
