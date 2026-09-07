@@ -9,3 +9,6 @@ AGENTS.md
 CLAUDE.md
 .env*
 !.env.example
+
+# Local Netlify folder
+.netlify

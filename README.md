@@ -47,10 +47,10 @@ npm start
 The `main` branch deploys on Netlify. Build settings are versioned in [`netlify.toml`](./netlify.toml):
 
 - Build command: `npm run build`
-- Publish directory: `.next`
+- Publish directory: `out`
 - Runtime: Node.js 22
 
-Netlify applies its maintained OpenNext adapter automatically during deployment.
+The portfolio is exported as static HTML by Next.js, so Netlify can serve the generated root page and optimized local assets without a server runtime.
 
 ## Project structure
 
